@@ -41,5 +41,6 @@ plt.ylabel("Average Conversion Rate (%)", fontsize=13, fontweight="semibold")
 plt.tight_layout()
 
 # ✅ Save as PNG
-plt.savefig("barplot_chart.png", dpi=100, bbox_inches="tight")
+plt.savefig("chart.png", dpi=100, bbox_inches="tight")
 plt.show()
+
